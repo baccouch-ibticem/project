@@ -75,7 +75,7 @@ void Supprimer(Noeud* noeud)
    Noeud* gauche = noeud->fils_gauche;
    Noeud* courant = arbre;
 
-   // Cas délicat : si on supprime la racine?
+   // Cas délicat : si on supprime la racine? V1
    if(noeud == arbre)
    {
       arbre = droite;
